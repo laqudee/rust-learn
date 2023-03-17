@@ -1,0 +1,10 @@
+[package]
+name = "rust_hash_avatar_fork"
+version = "0.1.0"
+edition = "2021"
+categories = ["algorithms", "encoding", "filesystem", "graphics"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = { version = "0.8.5" }
+image = { version = "0.24.1", features = ["png"], default-features = false }

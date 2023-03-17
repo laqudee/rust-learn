@@ -1,0 +1,29 @@
+[package]
+name = "zy_fork"
+version = "0.1.0"
+authors = ["lauqdee <laqudee@gamil.com>"]
+edition = "2021"
+rust-version = "1.59.0"
+description = "Minimal and blazing-fast file server"
+license = "MIT OR Apache-2.0"
+keywords = ["static", "file", "server", "http", "cli"]
+categories = ["command-line-utilities", "web-programming::http-server"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "3.2", features = ["derive"] }
+mime = "0.3.16"
+tokio = { version = "1", features = ["macros", "signal"] }
+tracing = "0.1.26"
+actix-web = "4.2.1"
+humantime = "2.1.0"
+color-eyre = "0.6.2"
+actix-files = "0.6.2"
+tracing-subscriber = { version = "0.3.16", features = ["env-filter"] }
+
+[profile.slim]
+inherits = "release"
+lto = true
+strip = true
+codegen-units = 1

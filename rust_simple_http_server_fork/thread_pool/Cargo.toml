@@ -1,0 +1,10 @@
+[package]
+name = "thread_pool"
+version = "0.1.0"
+edition = "2021"
+authors = ["Laqudee Des"]
+description = "这是一个简易线程池的实现"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
