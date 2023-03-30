@@ -1,0 +1,19 @@
+[package]
+name = "singleton-pattern"
+version = "0.1.0"
+edition = "2021"
+default-run = "safe_singleton"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4.0"
+
+[[bin]]
+name = "safe_singleton"
+
+[[bin]]
+name = "lazy_singleton"
+
+[[bin]]
+name = "mutex_singleton"
