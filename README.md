@@ -9,7 +9,7 @@
 ## 设计模式练习与代码
 - 22种设计模式全部覆盖
 - [设计模式代码地址](https://github.com/laqudee/rust-design-pattern)
-- [设计模式理论说明地址](https://github.com/laqudee/front-end-think/blob/master/2023%E6%B7%B1%E5%85%A5%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/notes/20230328.md)
+- [设计模式理论说明地址](https://github.com/laqudee/javascript-design-pattern/blob/main/a-notes/20230328.md)
 
 
 ## 面向对象程序设计
